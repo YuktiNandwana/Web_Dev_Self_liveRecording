@@ -47,7 +47,7 @@ let result=sum();
  function makeCake(){
     let cakeName = "chocolatecake";
     return function madeBy(){
-        console.log("YUKTI NANDWANA"+" loves to "+ cakeName)
+        console.log("YUKTI NANDWANA"+" loves to eat "+ cakeName)
     }
  }
 let birthday=makeCake();
@@ -55,3 +55,11 @@ birthday();
 
 //example 5
 
+function bestSir (){
+    a="parikshit sir", b=" sanket khurana sir ";
+   return function bestFemaleTeachers(){
+      console.log(a+b+"renu mam & heena didi & kanha &parents &sisters& grandparents & world" );
+    }
+}
+let Teachers=bestSir();
+Teachers ();

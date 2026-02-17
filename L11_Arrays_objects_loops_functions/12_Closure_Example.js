@@ -16,3 +16,12 @@
 // Kyunki yourFav() unko remember kar raha hai
 
 // And jab tum result() ko call karti ho → wo closure bana ke values use karta hai
+
+function mosi (){
+   let a="rekha" , b ="naina"
+   return function ma(){
+      console.log("masi ma",a,b);
+   }
+}
+let family = mosi()
+family();

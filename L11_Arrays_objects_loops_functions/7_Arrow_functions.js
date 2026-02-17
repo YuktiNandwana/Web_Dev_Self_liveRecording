@@ -16,3 +16,23 @@ console.log(b(7,15));
 
 let c=(a,b)=>a*b;
 console.log(c(13,6));
+
+// hw
+
+let z=()=>{
+    console.log("gihan")
+}
+z();
+
+///////////////////////
+
+let s= (a,f)=> a*f;
+console.log(s(2,3))
+
+
+//////////////////////
+let w=(k,a)=>{
+    return k-a
+}
+console.log(w(9,1))
+

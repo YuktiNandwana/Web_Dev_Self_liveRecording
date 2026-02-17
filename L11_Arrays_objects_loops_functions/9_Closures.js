@@ -42,3 +42,16 @@ let result=sum();
  console.log(result1());
 
 
+ //example 4
+
+ function makeCake(){
+    let cakeName = "chocolatecake";
+    return function madeBy(){
+        console.log("YUKTI NANDWANA"+" loves to "+ cakeName)
+    }
+ }
+let birthday=makeCake();
+birthday();
+
+//example 5
+
